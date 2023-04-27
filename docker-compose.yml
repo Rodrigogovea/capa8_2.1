@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: capa8
+    image: capa8_image
+    build:
+      context: .
+    ports:
+      - 8081:80
